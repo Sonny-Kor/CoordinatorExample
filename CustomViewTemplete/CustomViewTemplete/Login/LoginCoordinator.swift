@@ -19,6 +19,7 @@ class LoginCoordinator: Coordinator, LoginViewControllerDelegate {
     private var navigationController: UINavigationController!
     
     init(navigationController: UINavigationController) {
+        print("hmm")
         self.navigationController = navigationController
     }
     
